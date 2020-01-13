@@ -1,0 +1,23 @@
+print("Hello World")
+x=10
+print("value of x", x)
+y=15
+print("value of y", y)
+
+a=10
+b=6.9
+c=6+5j
+
+print(type(a))
+print(type(b))
+print(type(c))
+print("the sum of two complex numbers is",(c+5-4j))
+
+m=float(a)
+n=int(b)
+
+print(m)
+print(n)
+
+print(type(m))
+print(type(n))
