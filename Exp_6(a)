@@ -1,0 +1,12 @@
+myset=set()
+print('Enter Elements Of List')
+mylist = input().split()
+print("Original list")
+print(mylist)
+
+for a in mylist:
+	myset.add(a)
+newlist=list(myset)
+
+print("After Removing Duplicates")
+print(newlist)
